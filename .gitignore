@@ -1,0 +1,55 @@
+# Ignore build directories
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore Visual Studio-specific files
+.vs/
+*.suo
+*.user
+*.csproj.user
+*.dbmdl
+*.opendb
+
+# Ignore auto-generated files
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.tmp
+*.bak
+
+# Ignore NuGet dependencies
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+.nuget/
+
+# Ignore IDE and editor settings
+.vscode/
+*.code-workspace
+
+# Ignore temporary and lock files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.log
+*.pid
+*.seed
+
+# Ignore database and local storage files
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.bak
+
+# Ignore Rider IDE (if using JetBrains Rider)
+.idea/
+*.iml
+
+# Ignore Nested .gitignore files
+ 
